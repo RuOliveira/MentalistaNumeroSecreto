@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300&display=swap');
+
+
+body {
+  font-family: "Roboto Mono", monospace;
+  background-image: url("https://i.gifer.com/RPs9.gif");
+  background-size: 35%;
+}
+
+.container {
+  color: #eeeeee;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  width: 70%;
+  align: center;
+  background-image: radial-gradient(circle at 50% 80%, #1c1819 0, #030202 25%, #263f3f 100%, #2f4f4f 75%, #263f3f 100%);
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 50%);
+  padding-bottom: 30px;
+}
+
+.page-title {
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 3px;
+  font-size: 40px;
+  color: #ffffff;
+  margin: 0 0 5px;
+  padding-top: 50px;
+  padding: 40px;
+}
+
+.subtitle {
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 3px;
+  font-size: 32px;
+  color: #ffbb2f;
+  margin: 0 0 5px;
+  padding: 20px;
+}
+
+.page-subtitle {
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 3px;
+  margin-top: 16px;
+  font-size: 20px;
+  color: #ffffff;
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+
+.page-logo {
+  width: 150px;
+  padding: 20px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 40px;
+  right: 50px;
+}
+
+@media (max-height: 500px) {
+  body {
+    min-height: 800px;
+  }
+}
+
+input {
+  font-size: 20px;
+  margin: 4px;
+  width: 18%;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+button {
+  border: 0;
+  color: #ffffff;
+  background: #00bfff;
+  font-weight: bold;
+  padding: 10px 10px;
+  font-size: 14px;
+  border-radius: 4px;
+  margin: 30px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  color: #000000;
+  font-weight: bold;
+  background-color: #ffffff;
+  transform: scale(1.1);
+  transition-duration: 0.5s;
+}
+
+#resultado {
+  color: #eeeeee;
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  margin-top: 14px;
+  padding: 10px;
+}
